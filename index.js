@@ -85,7 +85,7 @@ let jsonData = {};
 app.post('/Paymentsuccess', (req, res) => {
   jsonData = req.body
   console.log(req);
-  res.redirect("http://localhost:3000/Paymentsuccess");
+  res.redirect("https://shop.incretech.in/Paymentsuccess");
 
 });
 
@@ -107,7 +107,7 @@ app.post('/Paymentfailure', (req, res) => {
   jsonData = req.body
   console.log("jsonData", jsonData)
 
-  res.redirect("http://localhost:3000/Paymentfailure");
+  res.redirect("https://shop.incretech.in/Paymentfailure");
 
 });
 
