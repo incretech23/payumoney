@@ -58,8 +58,8 @@ app.post('/pay', (req, res) => {
       firstname: firstname,
       email: email,
       phone: phone,
-      surl: 'https://payumoney-integration.up.railway.app/Paymentsuccess',
-      furl: 'https://payumoney-integration.up.railway.app/Paymentfailure',
+      surl: 'https://payumoney-d5dw.onrender.com/Paymentsuccess',
+      furl: 'https://payumoney-d5dw.onrender.com/Paymentfailure',
       hash: hash
     }
   };
